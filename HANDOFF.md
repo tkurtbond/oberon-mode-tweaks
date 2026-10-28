@@ -11,8 +11,9 @@ real source.)
 
 ## Repository
 This directory is `/home/tkb/Repos/Emacs/oberon-mode-tweaks`; it was renamed from
-`oberon-mode` on 2026-10-28. It is a git repo on `main`, local only with no remote. The first
-commit, `477a205`, contains everything below. `.gitignore` excludes Emacs backups (`.~/`, `*~`,
+`oberon-mode` on 2026-10-28. It is a git repo on `main`. Since 2026-10-28 it has been
+pushed to the public GitHub repo https://github.com/tkurtbond/oberon-mode-tweaks (remote
+`origin`), and `main` tracks `origin/main`. The first commit, `477a205`, contains everything below. `.gitignore` excludes Emacs backups (`.~/`, `*~`,
 `#*#`, `.#*`) and poc build output (`*.sym`, `*.ll`, `*.o`). Commit and push when the user asks.
 
 ## Current state: DONE and tested in batch Emacs 30.2
