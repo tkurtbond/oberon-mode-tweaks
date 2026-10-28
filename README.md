@@ -52,8 +52,14 @@ need `M-x oberon-mode` again to pick up the hook settings.
 ## Files
 
 - `oberon-defun.el`: the code.
+- `LICENSE`: the GNU GPL, version 3.
 - `Example.Mod`: a test module with records, type-bound procedures, nested procedures and
   a module body. It is written for the Peaseblossom Oberon Compiler (`poc`); Vishap Oberon
   (`voc`) rejects some of its extensions.
 - `init.el`: sample Oberon settings (file associations, indentation, font-lock).
 - `AGENTS.md`, `HANDOFF.md`: development notes and test results.
+
+## License
+
+Copyright (C) 2026 T. Kurt Bond. Licensed under the GNU General Public License, version 3
+or (at your option) any later version. See `LICENSE`.
