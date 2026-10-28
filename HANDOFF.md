@@ -11,10 +11,21 @@ real source.)
 
 ## Repository
 This directory is `/home/tkb/Repos/Emacs/oberon-mode-tweaks`; it was renamed from
-`oberon-mode` on 2026-10-28. It is a git repo on `main`. Since 2026-10-28 it has been
-pushed to the public GitHub repo https://github.com/tkurtbond/oberon-mode-tweaks (remote
-`origin`), and `main` tracks `origin/main`. The first commit, `477a205`, contains everything below. `.gitignore` excludes Emacs backups (`.~/`, `*~`,
-`#*#`, `.#*`) and poc build output (`*.sym`, `*.ll`, `*.o`). Commit and push when the user asks.
+`oberon-mode` on 2026-10-28. It is a git repo on `main`, and `main` tracks `origin/main`.
+Since 2026-10-28 it has been pushed to the public GitHub repo
+https://github.com/tkurtbond/oberon-mode-tweaks (remote `origin`). The first commit, `477a205`,
+contains the code and test results below.
+
+Besides the code it has:
+- `README.md`: the user-facing description, with features, installation, limitations, files
+  and license. Keep it in step with features and known limits when they change.
+- `LICENSE`: GPL-3.0 text (GitHub detects it as GPL-3.0). The project is
+  GPL-3.0-or-later, copyright 2026 T. Kurt Bond, and `oberon-defun.el` has the standard GNU
+  notice under its first line.
+- `.gitignore`: excludes Emacs backups (`.~/`, `*~`, `#*#`, `.#*`) and poc build output
+  (`*.sym`, `*.ll`, `*.o`).
+
+Commit and push when the user asks.
 
 ## Current state: DONE and tested in batch Emacs 30.2
 All code is in `oberon-defun.el` in this directory. Test file: `Example.Mod`

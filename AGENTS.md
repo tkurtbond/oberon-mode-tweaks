@@ -13,6 +13,8 @@ C-M-e, C-M-h, C-x n d) and imenu support for nested and type-bound procedures. R
 - `init.el`: a copy of the user's Oberon-related init settings. It does not load
   `oberon-defun.el`.
 - `HANDOFF.md`: session-to-session state.
+- `README.md`: user-facing description; update it when features or limits change.
+- `LICENSE`: GPL-3.0 (the project is GPL-3.0-or-later).
 
 The user copies `oberon-defun.el` into the git repo with their real Emacs config and loads it
 from there, so this directory is the development copy. After changing `oberon-defun.el`,
