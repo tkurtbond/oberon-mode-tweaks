@@ -1,9 +1,13 @@
 # oberon-mode-tweaks
 
-`oberon-defun.el` adds better procedure handling to the Emacs `oberon-mode` package
-(MELPA `oberon`, version 20120715.909). It improves defun motion and adds a procedure
-index. Both handle indented, nested and type-bound procedures. The package itself is not
-modified; everything is done from user code through hooks and key remaps.
+`oberon-defun.el` adds better procedure handling to the Emacs
+`oberon-mode` package (MELPA [oberon](https://melpa.org/#/oberon),
+version 20120715.909, or in the
+[emacs orphanage](https://github.com/emacsorphanage/oberon)). It
+improves defun motion and adds a procedure index. Both handle
+indented, nested and type-bound procedures. The package itself is not
+modified; everything is done from user code through hooks and key
+remaps.
 
 ## Features
 
